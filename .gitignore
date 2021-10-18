@@ -1,0 +1,22 @@
+!.gitignore
+!*.py
+!*.ipynb
+!*.csv
+!*.md
+!*.txt
+*.png
+*.zip
+# *.npy
+*.pth
+*.pyc
+*.o
+*.so
+*.cu
+*.h
+*.cpp
+*.o
+*.rst
+*.egg
+*.svg
+*.css
+*.html

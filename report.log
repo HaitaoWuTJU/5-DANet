@@ -1,0 +1,504 @@
+2021-10-18 09:10:04 - utils.py:352 - ERROR - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py is a windows file, you can use "dos2unix" command to convert it to linux file.
+2021-10-18 09:10:04 - main.py:54 - ERROR - convert abort!
+2021-10-18 09:10:46 - utils.py:27 - WARNING - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 remove "from paddle import fluid"
+2021-10-18 09:10:46 - utils.py:27 - WARNING - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:2 remove "from paddle.fluid.dygraph import Conv2D, Pool2D, Dropout, BatchNorm, Sequential"
+2021-10-18 09:10:46 - utils.py:27 - WARNING - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:3 remove "from paddle.fluid.layers import bmm,image_resize,create_parameter, reduce_max, reshape, transpose,softmax,expand_as"
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:6 fluid -> paddle.fluid
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:17 Sequential -> paddle.fluid.dygraph.Sequential
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:18 Conv2D -> paddle.fluid.dygraph.Conv2D
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:19 BatchNorm -> paddle.fluid.dygraph.BatchNorm
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:21 Sequential -> paddle.fluid.dygraph.Sequential
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:22 Conv2D -> paddle.fluid.dygraph.Conv2D
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:23 BatchNorm -> paddle.fluid.dygraph.BatchNorm
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:29 Sequential -> paddle.fluid.dygraph.Sequential
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:30 Conv2D -> paddle.fluid.dygraph.Conv2D
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:31 BatchNorm -> paddle.fluid.dygraph.BatchNorm
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:33 Sequential -> paddle.fluid.dygraph.Sequential
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:34 Conv2D -> paddle.fluid.dygraph.Conv2D
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:35 BatchNorm -> paddle.fluid.dygraph.BatchNorm
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:38 Sequential -> paddle.fluid.dygraph.Sequential
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:39 Dropout -> paddle.fluid.dygraph.Dropout
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:40 Conv2D -> paddle.fluid.dygraph.Conv2D
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:42 Sequential -> paddle.fluid.dygraph.Sequential
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:43 Dropout -> paddle.fluid.dygraph.Dropout
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:44 Conv2D -> paddle.fluid.dygraph.Conv2D
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:46 Sequential -> paddle.fluid.dygraph.Sequential
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:47 Dropout -> paddle.fluid.dygraph.Dropout
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:48 Conv2D -> paddle.fluid.dygraph.Conv2D
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:68 image_resize -> paddle.fluid.layers.image_resize
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:69 image_resize -> paddle.fluid.layers.image_resize
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:70 image_resize -> paddle.fluid.layers.image_resize
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:80 fluid -> paddle.fluid
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:85 Conv2D -> paddle.fluid.dygraph.Conv2D
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:86 Conv2D -> paddle.fluid.dygraph.Conv2D
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:87 Conv2D -> paddle.fluid.dygraph.Conv2D
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:88 create_parameter -> paddle.fluid.layers.create_parameter
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:94 reshape -> paddle.fluid.layers.reshape
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:95 transpose -> paddle.fluid.layers.transpose
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:98 reshape -> paddle.fluid.layers.reshape
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:101 reshape -> paddle.fluid.layers.reshape
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:102 transpose -> paddle.fluid.layers.transpose
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:105 bmm -> paddle.fluid.layers.bmm
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:106 softmax -> paddle.fluid.layers.softmax
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:107 transpose -> paddle.fluid.layers.transpose
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:109 bmm -> paddle.fluid.layers.bmm
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:110 reshape -> paddle.fluid.layers.reshape
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:115 fluid -> paddle.fluid
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:120 create_parameter -> paddle.fluid.layers.create_parameter
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:125 reshape -> paddle.fluid.layers.reshape
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:126 reshape -> paddle.fluid.layers.reshape
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:127 transpose -> paddle.fluid.layers.transpose
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:128 reshape -> paddle.fluid.layers.reshape
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:130 bmm -> paddle.fluid.layers.bmm
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:131 reduce_max -> paddle.fluid.layers.reduce_max
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:132 expand_as -> paddle.fluid.layers.expand_as
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:135 softmax -> paddle.fluid.layers.softmax
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:136 transpose -> paddle.fluid.layers.transpose
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:138 bmm -> paddle.fluid.layers.bmm
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:139 reshape -> paddle.fluid.layers.reshape
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:None add "import paddle"
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Layer -> paddle.fluid.dygraph.layers.Layer
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Conv2D -> paddle.fluid.dygraph.nn.Conv2D
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Sequential -> paddle.fluid.dygraph.container.Sequential
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Conv2D -> paddle.fluid.dygraph.nn.Conv2D
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Sequential -> paddle.fluid.dygraph.container.Sequential
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Conv2D -> paddle.fluid.dygraph.nn.Conv2D
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Sequential -> paddle.fluid.dygraph.container.Sequential
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Conv2D -> paddle.fluid.dygraph.nn.Conv2D
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Sequential -> paddle.fluid.dygraph.container.Sequential
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Dropout -> paddle.fluid.dygraph.nn.Dropout
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Conv2D -> paddle.fluid.dygraph.nn.Conv2D
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Sequential -> paddle.fluid.dygraph.container.Sequential
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Dropout -> paddle.fluid.dygraph.nn.Dropout
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Conv2D -> paddle.fluid.dygraph.nn.Conv2D
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Sequential -> paddle.fluid.dygraph.container.Sequential
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Dropout -> paddle.fluid.dygraph.nn.Dropout
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Conv2D -> paddle.fluid.dygraph.nn.Conv2D
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Sequential -> paddle.fluid.dygraph.container.Sequential
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Layer -> paddle.fluid.dygraph.layers.Layer
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Conv2D -> paddle.fluid.dygraph.nn.Conv2D
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Conv2D -> paddle.fluid.dygraph.nn.Conv2D
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Conv2D -> paddle.fluid.dygraph.nn.Conv2D
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.reshape -> paddle.fluid.layers.nn.reshape
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.reshape -> paddle.fluid.layers.nn.reshape
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.reshape -> paddle.fluid.layers.nn.reshape
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.bmm -> paddle.fluid.layers.nn.bmm
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.softmax -> paddle.fluid.layers.nn.softmax
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.bmm -> paddle.fluid.layers.nn.bmm
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.reshape -> paddle.fluid.layers.nn.reshape
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Layer -> paddle.fluid.dygraph.layers.Layer
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.reshape -> paddle.fluid.layers.nn.reshape
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.reshape -> paddle.fluid.layers.nn.reshape
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.reshape -> paddle.fluid.layers.nn.reshape
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.bmm -> paddle.fluid.layers.nn.bmm
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.reduce_max -> paddle.fluid.layers.nn.reduce_max
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.softmax -> paddle.fluid.layers.nn.softmax
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.bmm -> paddle.fluid.layers.nn.bmm
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.reshape -> paddle.fluid.layers.nn.reshape
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:18 args_list: "['num_channels', 'num_filters', 'filter_size', 'stride', 'padding', 'dilation', 'groups', 'param_attr', 'bias_attr', 'use_cudnn', 'act', 'dtype']" is longer than positional arguments, redundant arguments will be skipped.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:22 args_list: "['num_channels', 'num_filters', 'filter_size', 'stride', 'padding', 'dilation', 'groups', 'param_attr', 'bias_attr', 'use_cudnn', 'act', 'dtype']" is longer than positional arguments, redundant arguments will be skipped.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:30 args_list: "['num_channels', 'num_filters', 'filter_size', 'stride', 'padding', 'dilation', 'groups', 'param_attr', 'bias_attr', 'use_cudnn', 'act', 'dtype']" is longer than positional arguments, redundant arguments will be skipped.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:34 args_list: "['num_channels', 'num_filters', 'filter_size', 'stride', 'padding', 'dilation', 'groups', 'param_attr', 'bias_attr', 'use_cudnn', 'act', 'dtype']" is longer than positional arguments, redundant arguments will be skipped.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:131 args_list: "['input', 'dim', 'keep_dim', 'name']" is longer than positional arguments, redundant arguments will be skipped.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:18 rename argument "num_channels" to "in_channels".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:18 rename argument "num_filters" to "out_channels".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:18 rename argument "filter_size" to "kernel_size".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:18 argument "param_attr" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:18 argument "use_cudnn" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:18 argument "act" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:18 argument "dtype" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:22 rename argument "num_channels" to "in_channels".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:22 rename argument "num_filters" to "out_channels".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:22 rename argument "filter_size" to "kernel_size".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:22 argument "param_attr" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:22 argument "use_cudnn" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:22 argument "act" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:22 argument "dtype" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:30 rename argument "num_channels" to "in_channels".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:30 rename argument "num_filters" to "out_channels".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:30 rename argument "filter_size" to "kernel_size".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:30 argument "param_attr" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:30 argument "use_cudnn" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:30 argument "act" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:30 argument "dtype" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:34 rename argument "num_channels" to "in_channels".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:34 rename argument "num_filters" to "out_channels".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:34 rename argument "filter_size" to "kernel_size".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:34 argument "param_attr" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:34 argument "use_cudnn" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:34 argument "act" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:34 argument "dtype" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:40 rename argument "num_channels" to "in_channels".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:40 rename argument "num_filters" to "out_channels".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:40 rename argument "filter_size" to "kernel_size".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:40 argument "param_attr" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:40 argument "use_cudnn" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:40 argument "act" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:40 argument "dtype" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:44 rename argument "num_channels" to "in_channels".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:44 rename argument "num_filters" to "out_channels".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:44 rename argument "filter_size" to "kernel_size".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:44 argument "param_attr" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:44 argument "use_cudnn" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:44 argument "act" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:44 argument "dtype" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:48 rename argument "num_channels" to "in_channels".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:48 rename argument "num_filters" to "out_channels".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:48 rename argument "filter_size" to "kernel_size".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:48 argument "param_attr" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:48 argument "use_cudnn" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:48 argument "act" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:48 argument "dtype" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:85 rename argument "num_channels" to "in_channels".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:85 rename argument "num_filters" to "out_channels".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:85 rename argument "filter_size" to "kernel_size".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:85 argument "param_attr" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:85 argument "use_cudnn" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:85 argument "act" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:85 argument "dtype" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:86 rename argument "num_channels" to "in_channels".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:86 rename argument "num_filters" to "out_channels".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:86 rename argument "filter_size" to "kernel_size".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:86 argument "param_attr" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:86 argument "use_cudnn" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:86 argument "act" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:86 argument "dtype" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:87 rename argument "num_channels" to "in_channels".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:87 rename argument "num_filters" to "out_channels".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:87 rename argument "filter_size" to "kernel_size".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:87 argument "param_attr" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:87 argument "use_cudnn" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:87 argument "act" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:87 argument "dtype" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:94 argument "actual_shape" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:94 argument "act" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:94 argument "inplace" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:98 argument "actual_shape" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:98 argument "act" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:98 argument "inplace" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:101 argument "actual_shape" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:101 argument "act" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:101 argument "inplace" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:106 rename argument "input" to "x".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:106 argument "use_cudnn" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:110 argument "actual_shape" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:110 argument "act" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:110 argument "inplace" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:125 argument "actual_shape" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:125 argument "act" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:125 argument "inplace" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:126 argument "actual_shape" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:126 argument "act" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:126 argument "inplace" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:128 argument "actual_shape" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:128 argument "act" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:128 argument "inplace" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:131 rename argument "input" to "x".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:131 rename argument "dim" to "axis".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:131 rename argument "keep_dim" to "keepdim".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:132 rename argument "target_tensor" to "y".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:135 rename argument "input" to "x".
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:135 argument "use_cudnn" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:139 argument "actual_shape" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:139 argument "act" not found.
+2021-10-18 09:10:46 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:139 argument "inplace" not found.
+2021-10-18 09:10:46 - utils.py:27 - WARNING - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 this api is update to paddle.nn.Dropout
+2021-10-18 09:10:46 - utils.py:27 - WARNING - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 this api is update to paddle.nn.Dropout
+2021-10-18 09:10:46 - utils.py:27 - WARNING - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 this api is update to paddle.nn.Dropout
+
+#################### STATISTIC ####################
+filename: /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py
+WARNING: /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 remove "from paddle import fluid"
+WARNING: /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:2 remove "from paddle.fluid.dygraph import Conv2D, Pool2D, Dropout, BatchNorm, Sequential"
+WARNING: /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:3 remove "from paddle.fluid.layers import bmm,image_resize,create_parameter, reduce_max, reshape, transpose,softmax,expand_as"
+WARNING: /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 this api is update to paddle.nn.Dropout
+WARNING: /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 this api is update to paddle.nn.Dropout
+WARNING: /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 this api is update to paddle.nn.Dropout
+---------------------------------------------------
+###################################################
+2021-10-18 09:11:14 - utils.py:27 - WARNING - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 remove "from paddle import fluid"
+2021-10-18 09:11:14 - utils.py:27 - WARNING - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:2 remove "from paddle.fluid.dygraph import Conv2D, Pool2D, Dropout, BatchNorm, Sequential"
+2021-10-18 09:11:14 - utils.py:27 - WARNING - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:3 remove "from paddle.fluid.layers import bmm,image_resize,create_parameter, reduce_max, reshape, transpose,softmax,expand_as"
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:6 fluid -> paddle.fluid
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:17 Sequential -> paddle.fluid.dygraph.Sequential
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:18 Conv2D -> paddle.fluid.dygraph.Conv2D
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:19 BatchNorm -> paddle.fluid.dygraph.BatchNorm
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:21 Sequential -> paddle.fluid.dygraph.Sequential
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:22 Conv2D -> paddle.fluid.dygraph.Conv2D
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:23 BatchNorm -> paddle.fluid.dygraph.BatchNorm
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:29 Sequential -> paddle.fluid.dygraph.Sequential
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:30 Conv2D -> paddle.fluid.dygraph.Conv2D
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:31 BatchNorm -> paddle.fluid.dygraph.BatchNorm
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:33 Sequential -> paddle.fluid.dygraph.Sequential
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:34 Conv2D -> paddle.fluid.dygraph.Conv2D
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:35 BatchNorm -> paddle.fluid.dygraph.BatchNorm
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:38 Sequential -> paddle.fluid.dygraph.Sequential
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:39 Dropout -> paddle.fluid.dygraph.Dropout
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:40 Conv2D -> paddle.fluid.dygraph.Conv2D
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:42 Sequential -> paddle.fluid.dygraph.Sequential
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:43 Dropout -> paddle.fluid.dygraph.Dropout
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:44 Conv2D -> paddle.fluid.dygraph.Conv2D
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:46 Sequential -> paddle.fluid.dygraph.Sequential
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:47 Dropout -> paddle.fluid.dygraph.Dropout
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:48 Conv2D -> paddle.fluid.dygraph.Conv2D
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:68 image_resize -> paddle.fluid.layers.image_resize
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:69 image_resize -> paddle.fluid.layers.image_resize
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:70 image_resize -> paddle.fluid.layers.image_resize
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:80 fluid -> paddle.fluid
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:85 Conv2D -> paddle.fluid.dygraph.Conv2D
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:86 Conv2D -> paddle.fluid.dygraph.Conv2D
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:87 Conv2D -> paddle.fluid.dygraph.Conv2D
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:88 create_parameter -> paddle.fluid.layers.create_parameter
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:94 reshape -> paddle.fluid.layers.reshape
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:95 transpose -> paddle.fluid.layers.transpose
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:98 reshape -> paddle.fluid.layers.reshape
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:101 reshape -> paddle.fluid.layers.reshape
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:102 transpose -> paddle.fluid.layers.transpose
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:105 bmm -> paddle.fluid.layers.bmm
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:106 softmax -> paddle.fluid.layers.softmax
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:107 transpose -> paddle.fluid.layers.transpose
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:109 bmm -> paddle.fluid.layers.bmm
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:110 reshape -> paddle.fluid.layers.reshape
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:115 fluid -> paddle.fluid
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:120 create_parameter -> paddle.fluid.layers.create_parameter
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:125 reshape -> paddle.fluid.layers.reshape
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:126 reshape -> paddle.fluid.layers.reshape
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:127 transpose -> paddle.fluid.layers.transpose
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:128 reshape -> paddle.fluid.layers.reshape
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:130 bmm -> paddle.fluid.layers.bmm
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:131 reduce_max -> paddle.fluid.layers.reduce_max
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:132 expand_as -> paddle.fluid.layers.expand_as
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:135 softmax -> paddle.fluid.layers.softmax
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:136 transpose -> paddle.fluid.layers.transpose
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:138 bmm -> paddle.fluid.layers.bmm
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:139 reshape -> paddle.fluid.layers.reshape
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:None add "import paddle"
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Layer -> paddle.fluid.dygraph.layers.Layer
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Conv2D -> paddle.fluid.dygraph.nn.Conv2D
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Sequential -> paddle.fluid.dygraph.container.Sequential
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Conv2D -> paddle.fluid.dygraph.nn.Conv2D
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Sequential -> paddle.fluid.dygraph.container.Sequential
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Conv2D -> paddle.fluid.dygraph.nn.Conv2D
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Sequential -> paddle.fluid.dygraph.container.Sequential
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Conv2D -> paddle.fluid.dygraph.nn.Conv2D
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Sequential -> paddle.fluid.dygraph.container.Sequential
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Dropout -> paddle.fluid.dygraph.nn.Dropout
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Conv2D -> paddle.fluid.dygraph.nn.Conv2D
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Sequential -> paddle.fluid.dygraph.container.Sequential
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Dropout -> paddle.fluid.dygraph.nn.Dropout
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Conv2D -> paddle.fluid.dygraph.nn.Conv2D
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Sequential -> paddle.fluid.dygraph.container.Sequential
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Dropout -> paddle.fluid.dygraph.nn.Dropout
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Conv2D -> paddle.fluid.dygraph.nn.Conv2D
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Sequential -> paddle.fluid.dygraph.container.Sequential
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Layer -> paddle.fluid.dygraph.layers.Layer
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Conv2D -> paddle.fluid.dygraph.nn.Conv2D
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Conv2D -> paddle.fluid.dygraph.nn.Conv2D
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Conv2D -> paddle.fluid.dygraph.nn.Conv2D
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.reshape -> paddle.fluid.layers.nn.reshape
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.reshape -> paddle.fluid.layers.nn.reshape
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.reshape -> paddle.fluid.layers.nn.reshape
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.bmm -> paddle.fluid.layers.nn.bmm
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.softmax -> paddle.fluid.layers.nn.softmax
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.bmm -> paddle.fluid.layers.nn.bmm
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.reshape -> paddle.fluid.layers.nn.reshape
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.dygraph.Layer -> paddle.fluid.dygraph.layers.Layer
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.reshape -> paddle.fluid.layers.nn.reshape
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.reshape -> paddle.fluid.layers.nn.reshape
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.reshape -> paddle.fluid.layers.nn.reshape
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.bmm -> paddle.fluid.layers.nn.bmm
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.reduce_max -> paddle.fluid.layers.nn.reduce_max
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.softmax -> paddle.fluid.layers.nn.softmax
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.bmm -> paddle.fluid.layers.nn.bmm
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 paddle.fluid.layers.reshape -> paddle.fluid.layers.nn.reshape
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:18 args_list: "['num_channels', 'num_filters', 'filter_size', 'stride', 'padding', 'dilation', 'groups', 'param_attr', 'bias_attr', 'use_cudnn', 'act', 'dtype']" is longer than positional arguments, redundant arguments will be skipped.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:22 args_list: "['num_channels', 'num_filters', 'filter_size', 'stride', 'padding', 'dilation', 'groups', 'param_attr', 'bias_attr', 'use_cudnn', 'act', 'dtype']" is longer than positional arguments, redundant arguments will be skipped.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:30 args_list: "['num_channels', 'num_filters', 'filter_size', 'stride', 'padding', 'dilation', 'groups', 'param_attr', 'bias_attr', 'use_cudnn', 'act', 'dtype']" is longer than positional arguments, redundant arguments will be skipped.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:34 args_list: "['num_channels', 'num_filters', 'filter_size', 'stride', 'padding', 'dilation', 'groups', 'param_attr', 'bias_attr', 'use_cudnn', 'act', 'dtype']" is longer than positional arguments, redundant arguments will be skipped.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:131 args_list: "['input', 'dim', 'keep_dim', 'name']" is longer than positional arguments, redundant arguments will be skipped.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:18 rename argument "num_channels" to "in_channels".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:18 rename argument "num_filters" to "out_channels".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:18 rename argument "filter_size" to "kernel_size".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:18 argument "param_attr" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:18 argument "use_cudnn" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:18 argument "act" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:18 argument "dtype" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:22 rename argument "num_channels" to "in_channels".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:22 rename argument "num_filters" to "out_channels".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:22 rename argument "filter_size" to "kernel_size".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:22 argument "param_attr" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:22 argument "use_cudnn" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:22 argument "act" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:22 argument "dtype" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:30 rename argument "num_channels" to "in_channels".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:30 rename argument "num_filters" to "out_channels".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:30 rename argument "filter_size" to "kernel_size".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:30 argument "param_attr" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:30 argument "use_cudnn" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:30 argument "act" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:30 argument "dtype" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:34 rename argument "num_channels" to "in_channels".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:34 rename argument "num_filters" to "out_channels".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:34 rename argument "filter_size" to "kernel_size".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:34 argument "param_attr" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:34 argument "use_cudnn" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:34 argument "act" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:34 argument "dtype" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:40 rename argument "num_channels" to "in_channels".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:40 rename argument "num_filters" to "out_channels".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:40 rename argument "filter_size" to "kernel_size".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:40 argument "param_attr" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:40 argument "use_cudnn" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:40 argument "act" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:40 argument "dtype" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:44 rename argument "num_channels" to "in_channels".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:44 rename argument "num_filters" to "out_channels".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:44 rename argument "filter_size" to "kernel_size".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:44 argument "param_attr" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:44 argument "use_cudnn" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:44 argument "act" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:44 argument "dtype" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:48 rename argument "num_channels" to "in_channels".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:48 rename argument "num_filters" to "out_channels".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:48 rename argument "filter_size" to "kernel_size".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:48 argument "param_attr" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:48 argument "use_cudnn" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:48 argument "act" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:48 argument "dtype" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:85 rename argument "num_channels" to "in_channels".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:85 rename argument "num_filters" to "out_channels".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:85 rename argument "filter_size" to "kernel_size".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:85 argument "param_attr" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:85 argument "use_cudnn" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:85 argument "act" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:85 argument "dtype" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:86 rename argument "num_channels" to "in_channels".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:86 rename argument "num_filters" to "out_channels".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:86 rename argument "filter_size" to "kernel_size".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:86 argument "param_attr" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:86 argument "use_cudnn" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:86 argument "act" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:86 argument "dtype" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:87 rename argument "num_channels" to "in_channels".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:87 rename argument "num_filters" to "out_channels".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:87 rename argument "filter_size" to "kernel_size".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:87 argument "param_attr" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:87 argument "use_cudnn" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:87 argument "act" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:87 argument "dtype" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:94 argument "actual_shape" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:94 argument "act" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:94 argument "inplace" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:98 argument "actual_shape" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:98 argument "act" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:98 argument "inplace" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:101 argument "actual_shape" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:101 argument "act" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:101 argument "inplace" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:106 rename argument "input" to "x".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:106 argument "use_cudnn" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:110 argument "actual_shape" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:110 argument "act" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:110 argument "inplace" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:125 argument "actual_shape" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:125 argument "act" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:125 argument "inplace" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:126 argument "actual_shape" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:126 argument "act" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:126 argument "inplace" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:128 argument "actual_shape" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:128 argument "act" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:128 argument "inplace" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:131 rename argument "input" to "x".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:131 rename argument "dim" to "axis".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:131 rename argument "keep_dim" to "keepdim".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:132 rename argument "target_tensor" to "y".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:135 rename argument "input" to "x".
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:135 argument "use_cudnn" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:139 argument "actual_shape" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:139 argument "act" not found.
+2021-10-18 09:11:14 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:139 argument "inplace" not found.
+2021-10-18 09:11:14 - utils.py:27 - WARNING - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 this api is update to paddle.nn.Dropout
+2021-10-18 09:11:14 - utils.py:27 - WARNING - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 this api is update to paddle.nn.Dropout
+2021-10-18 09:11:14 - utils.py:27 - WARNING - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 this api is update to paddle.nn.Dropout
+
+#################### STATISTIC ####################
+filename: /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py
+WARNING: /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 remove "from paddle import fluid"
+WARNING: /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:2 remove "from paddle.fluid.dygraph import Conv2D, Pool2D, Dropout, BatchNorm, Sequential"
+WARNING: /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:3 remove "from paddle.fluid.layers import bmm,image_resize,create_parameter, reduce_max, reshape, transpose,softmax,expand_as"
+WARNING: /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 this api is update to paddle.nn.Dropout
+WARNING: /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 this api is update to paddle.nn.Dropout
+WARNING: /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:1 this api is update to paddle.nn.Dropout
+---------------------------------------------------
+###################################################
+2021-10-18 09:15:25 - utils.py:27 - WARNING - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:37 this api is update to paddle.nn.Dropout
+2021-10-18 09:15:25 - utils.py:27 - WARNING - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:41 this api is update to paddle.nn.Dropout
+2021-10-18 09:15:25 - utils.py:27 - WARNING - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:45 this api is update to paddle.nn.Dropout
+
+#################### STATISTIC ####################
+filename: /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py
+WARNING: /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:37 this api is update to paddle.nn.Dropout
+WARNING: /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:41 this api is update to paddle.nn.Dropout
+WARNING: /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/danet.py:45 this api is update to paddle.nn.Dropout
+---------------------------------------------------
+###################################################
+2021-10-18 09:39:36 - utils.py:352 - ERROR - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py is a windows file, you can use "dos2unix" command to convert it to linux file.
+2021-10-18 09:39:36 - main.py:54 - ERROR - convert abort!
+2021-10-18 09:39:53 - utils.py:27 - WARNING - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:6 remove "import paddle.fluid as fluid"
+2021-10-18 09:39:53 - utils.py:27 - WARNING - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:7 remove "from paddle.fluid.layer_helper import LayerHelper"
+2021-10-18 09:39:53 - utils.py:27 - WARNING - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:8 remove "from paddle.fluid.dygraph.nn import Conv2D, Pool2D, BatchNorm, Linear"
+2021-10-18 09:39:53 - utils.py:27 - WARNING - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:9 remove "from paddle.fluid.dygraph.base import to_variable"
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:13 fluid -> paddle.fluid
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:32 Conv2D -> paddle.fluid.dygraph.nn.Conv2D
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:43 BatchNorm -> paddle.fluid.dygraph.nn.BatchNorm
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:53 fluid -> paddle.fluid
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:105 fluid -> paddle.fluid
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:106 LayerHelper -> paddle.fluid.layer_helper.LayerHelper
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:110 fluid -> paddle.fluid
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:144 Pool2D -> paddle.fluid.dygraph.nn.Pool2D
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:168 Pool2D -> paddle.fluid.dygraph.nn.Pool2D
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:175 Linear -> paddle.fluid.dygraph.nn.Linear
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:176 fluid -> paddle.fluid
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:177 fluid -> paddle.fluid
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:1 paddle.fluid.dygraph.Layer -> paddle.fluid.dygraph.layers.Layer
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:1 paddle.fluid.dygraph.nn.BatchNorm -> paddle.fluid.dygraph.BatchNorm
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:1 paddle.fluid.dygraph.Layer -> paddle.fluid.dygraph.layers.Layer
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:1 paddle.fluid.dygraph.Layer -> paddle.fluid.dygraph.layers.Layer
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:1 paddle.fluid.dygraph.nn.Pool2D -> paddle.fluid.dygraph.Pool2D
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:1 paddle.fluid.dygraph.nn.Pool2D -> paddle.fluid.dygraph.Pool2D
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:1 paddle.fluid.param_attr.ParamAttr -> paddle.fluid.ParamAttr
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:33 args_list: "['num_channels', 'num_filters', 'filter_size', 'stride', 'padding', 'dilation', 'groups', 'param_attr', 'bias_attr', 'use_cudnn', 'act', 'dtype']" is longer than positional arguments, redundant arguments will be skipped.
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:105 args_list: "['x', 'y', 'axis', 'act', 'name']" is longer than positional arguments, redundant arguments will be skipped.
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:175 args_list: "['input_dim', 'output_dim', 'param_attr', 'bias_attr', 'act', 'dtype']" is longer than positional arguments, redundant arguments will be skipped.
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:32 rename argument "num_channels" to "in_channels".
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:32 rename argument "num_filters" to "out_channels".
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:32 rename argument "filter_size" to "kernel_size".
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:32 argument "param_attr" not found.
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:32 argument "use_cudnn" not found.
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:32 argument "act" is removed.
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:32 argument "dtype" not found.
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:105 argument "axis" not found.
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:105 argument "act" not found.
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:177 argument "seed" not found.
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:177 argument "diag_num" not found.
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:177 argument "diag_step" not found.
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:177 argument "diag_val" not found.
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:175 rename argument "input_dim" to "in_features".
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:175 rename argument "output_dim" to "out_features".
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:175 rename argument "param_attr" to "weight_attr".
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:175 argument "act" not found.
+2021-10-18 09:39:53 - utils.py:23 - INFO - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:175 argument "dtype" not found.
+2021-10-18 09:39:53 - utils.py:27 - WARNING - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:1 please use paddle.nn.AvgPool2D or paddle.nn.MaxPool2D
+2021-10-18 09:39:53 - utils.py:27 - WARNING - /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:1 please use paddle.nn.AvgPool2D or paddle.nn.MaxPool2D
+
+#################### STATISTIC ####################
+filename: /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py
+WARNING: /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:6 remove "import paddle.fluid as fluid"
+WARNING: /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:7 remove "from paddle.fluid.layer_helper import LayerHelper"
+WARNING: /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:8 remove "from paddle.fluid.dygraph.nn import Conv2D, Pool2D, BatchNorm, Linear"
+WARNING: /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:9 remove "from paddle.fluid.dygraph.base import to_variable"
+WARNING: /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:1 please use paddle.nn.AvgPool2D or paddle.nn.MaxPool2D
+WARNING: /home/haitaowu/baidu/DANetPaddle/work/paddle/danet/networks/resnet.py:1 please use paddle.nn.AvgPool2D or paddle.nn.MaxPool2D
+---------------------------------------------------
+###################################################
