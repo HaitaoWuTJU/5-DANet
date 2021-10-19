@@ -3,6 +3,10 @@ from reprod_log import ReprodLogger
 import DANetPaddle.work.paddle.danet.networks.danet as danet
 import DANetPytorch.encoding as encoding
 import torch,os
+import sys
+sys.path.append('/home/haitaowu/5-DANet/DANetPaddle')
+sys.path.append('/home/haitaowu/5-DANet/DANetPytorch')
+
 import paddle
 if __name__ == "__main__":
     reprod_log_1 = ReprodLogger()
