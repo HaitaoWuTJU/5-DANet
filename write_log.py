@@ -1,9 +1,11 @@
 import numpy as np
 from reprod_log import ReprodLogger
+from reprod_log import ReprodDiffHelper
 import DANetPaddle.work.paddle.danet.networks.danet as danet
 import DANetPytorch.encoding as encoding
 import torch,os
 import paddle
+
 if __name__ == "__main__":
     reprod_log_1 = ReprodLogger()
     reprod_log_2 = ReprodLogger()
@@ -26,8 +28,16 @@ if __name__ == "__main__":
 
     reprod_log_1.add("pytorch_model_1", pytorch_res1)
     reprod_log_1.add("paddle_model2_1", paddle_res1)
-    reprod_log_1.save("model_1.npy")
+    reprod_log_1.save("res_1.npy", pytorch_res1)
+    reprod_log_1.save("res_2.npy", paddle_res1)
 
-    reprod_log_2.add("pytorch_model_2", data_2)
-    reprod_log_2.add("paddle_model_2", data_2)
-    reprod_log_2.save("model_2.npy")
+
+    diff_helper = ReprodDiffHelper()
+
+    info1 = diff_helper.load_info("./res_1.npy")
+    info2 = diff_helper.load_info("./res_2.npy")
+
+    diff_helper.compare_info(info1, info2)
+
+    diff_helper.report(
+        diff_method="mean", diff_threshold=1e-6, path="./diff.txt")
